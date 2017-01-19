@@ -1,0 +1,24 @@
+{
+    "basketballApp": {
+        "favouritePlayer" : {
+            "home": {
+                "title": "Favourite Players",
+                "createLabel": "Crear nuevo Favourite Player",
+                "createOrEditLabel": "Crear o editar Favourite Player",
+                "search": "Search for Favourite Player"
+            },
+            "created": "Un nuevo Favourite Player ha sido creado con el identificador {{ param }}",
+            "updated": "Un Favourite Player ha sido actualizado con el identificador {{ param }}",
+            "deleted": "Un Favourite Player ha sido eliminado con el identificador {{ param }}",
+            "delete": {
+                "question": "¿Seguro que quiere eliminar Favourite Player {{ id }}?"
+            },
+            "detail": {
+                "title": "Favourite Player"
+            },
+            "favouriteDateTime": "Favourite Date Time",
+            "user": "User",
+            "player": "Player"
+        }
+    }
+}

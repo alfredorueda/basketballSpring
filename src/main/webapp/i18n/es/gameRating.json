@@ -1,0 +1,25 @@
+{
+    "basketballApp": {
+        "gameRating" : {
+            "home": {
+                "title": "Game Ratings",
+                "createLabel": "Crear nuevo Game Rating",
+                "createOrEditLabel": "Crear o editar Game Rating",
+                "search": "Search for Game Rating"
+            },
+            "created": "Un nuevo Game Rating ha sido creado con el identificador {{ param }}",
+            "updated": "Un Game Rating ha sido actualizado con el identificador {{ param }}",
+            "deleted": "Un Game Rating ha sido eliminado con el identificador {{ param }}",
+            "delete": {
+                "question": "¿Seguro que quiere eliminar Game Rating {{ id }}?"
+            },
+            "detail": {
+                "title": "Game Rating"
+            },
+            "score": "Score",
+            "scoreDateTime": "Score Date Time",
+            "user": "User",
+            "game": "Game"
+        }
+    }
+}
