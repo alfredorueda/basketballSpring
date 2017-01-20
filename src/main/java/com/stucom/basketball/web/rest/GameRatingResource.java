@@ -98,7 +98,7 @@ public class GameRatingResource {
             result.setScoreDateTime(gameRating.getScoreDateTime());
             //Podriamos colocar result.setScoreDateTime(ZonedDateTime.now()), pero tendria mas coste, asi que aprovechamos que ya
             //le colocamos a gameRating un ZonedDateTime.now()
-             return updateGameRating(gameRating);
+             return updateGameRating(result);
             //De aqui lo enviamos al PUT, que se encargará de actualizar los datos
         }else{
             //si no existe una valoracion, es decir, gameRatingOptional es null, llamamos al repository y guardamos el gameRating
